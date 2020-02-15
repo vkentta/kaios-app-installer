@@ -16,7 +16,7 @@ Install Docker, enable debugging mode on your phone and you are ready to install
 1. Build your app
 2. Navigate into the folder, containing your built app
 3. Connect your KaiOS device via USB (make sure USB logo appears on phone task bar)
-4. Run ```docker run --rm -v `pwd`:/app-src --device=/dev/bus/usb:/dev/bus/usb vkentta/kaios-app-installer install_packaged```
+4. Run this command in your linux terminal ```docker run --rm -v `pwd`:/app-src --device=/dev/bus/usb:/dev/bus/usb vkentta/kaios-app-installer install_packaged```
 5. Use the installed app on your phone
 
 In case of hosted app, replace last argument with `install_hosted`.
